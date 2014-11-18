@@ -3,7 +3,7 @@ PERL		= perl
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 
-KERNEL_DEFCONFIG := fuji_nozomi_defconfig
+KERNEL_DEFCONFIG := fuji_aoba_defconfig
 KERNEL_DIR := $(ANDROID_BUILD_TOP)/kernel/sony/msm8x60
 KERNEL_OUT := $(ANDROID_PRODUCT_OUT)/obj/KERNEL_OBJ
 KERNEL_CONFIG := $(KERNEL_OUT)/.config
